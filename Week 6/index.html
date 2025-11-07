@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography Course Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to the Art of Photography</h1>
+    <p>Join our beginner-friendly photography course and learn how to capture stunning moments!</p>
+  </header>
+
+  <!-- Course Highlights Section -->
+  <section id="highlights">
+    <h2>Course Highlights</h2>
+    <ul>
+      <li> Learn camera basics and composition</li>
+      <li> Master natural lighting techniques</li>
+      <li> Edit photos like a pro</li>
+    </ul>
+    <button id="toggleHighlights">Hide Highlights</button>
+  </section>
+
+  <!-- Signup Form Section -->
+  <section id="signup">
+    <h2>Sign Up for the Course</h2>
+    <form id="signupForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <label for="interest">Photography Interest:</label>
+      <select id="interest">
+        <option value="">Select your interest</option>
+        <option value="nature">Nature Photography</option>
+        <option value="portrait">Portrait Photography</option>
+        <option value="wildlife">Wildlife Photography</option>
+      </select>
+
+      <button type="submit">Sign Up</button>
+      <p id="formMessage" style="color: red;"></p>
+    </form>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>What Our Students Say</h2>
+    <p id="testimonialText">"This course transformed how I take photos!" - Alex</p>
+    <button id="changeTestimonial">See Another Testimonial</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
